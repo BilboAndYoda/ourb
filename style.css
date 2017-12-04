@@ -1,3 +1,24 @@
-body {
-	background-color: pink;
+
+.container-fluid {
+	font-family: 'Permanent Marker', cursive;
+}
+
+.white {
+	background-color: #ffffff;
+}
+
+.green {
+	background-color: #95b1a3;
+}
+
+.orange{
+	background-color: #fdeacf;
+}
+
+.grey {
+	background-color: #e5e7e4;
+}
+
+h3 {
+	font-family: 'Carrois Gothic', sans-serif !important;
 }
