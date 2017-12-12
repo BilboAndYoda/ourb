@@ -19,6 +19,30 @@
 	background-color: #e5e7e4;
 }
 
+.crowd {
+	background-image: url("crowd.jpg");
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+}
+
+.hero {
+
+}
+
+.logo {
+
+}
+
 h3 {
 	font-family: 'Carrois Gothic', sans-serif !important;
+}
+
+#minImgHeight {
+	max-height: 800px;
+	margin-left: -600px;
+}
+
+#mv {
+	vertical-align: middle;
 }
