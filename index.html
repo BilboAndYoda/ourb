@@ -63,7 +63,7 @@
 		}	
 
 		h1 {
-			font-weight: bold;
+			font-weight: 300;
 			font-size: 7em;
 			font-family: 'Permanent Marker', cursive;
 		}
@@ -72,6 +72,10 @@
 		h2 {
 			font-weight: 300;
 			font-size: 3em;
+		}
+
+		h3 {
+			font-weight: 300;
 		}
 
 		.navbar-inverse .navbar-nav>li>a {
@@ -96,12 +100,15 @@
 			width: 100%;
 			padding: 5% 5%;
 		}	
-		#section1 {
+		.section {
 			color: black;
+		}	
+		.section h2{
+			color: #7b9d97;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 4em;
 		}		
-		#section2 {
-			color: black;
-		}		
+		
 		#form {
 			color: black;
 		}		
@@ -130,6 +137,20 @@
 		#whiteboard {
 			font-family: 'Permanent Marker', cursive;
 		}
+
+		img {
+			width:100%;
+		}
+
+		.vertical-align {
+		    display: flex;
+		    align-items: center;
+		}
+
+		.content-iphone{
+			max-width: 500px;
+
+		}
 	</style>
 </head>
 <body>
@@ -142,7 +163,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="#"></i>STARTUP</a>
+	      <a class="navbar-brand" href="#"></i><span id="whiteboard">OUR/B</span></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -176,74 +197,28 @@
                     <div class="col-md-12">
                         <div class="feature-intro text-center">
                             <h2 class="margin-auto"><span id="whiteboard">OUR/B</span> BRINGS CITIZENS, PLANNERS, INVESTORS, AND CITY OFFICIALS <span id="whiteboard">TOGETHER</span>, IN ORDER TO INSPIRE A COLLECTIVE DEVELOPMENT OF A <span id="whiteboard">CITY</span>.</h2>
-                            <div class="video-icon"><i class="pe-7s-play pe-5x pe-va"></i></div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!-- features -->
-            <!-- <div class="container">
-                <div class="features">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <div class="single-content text-center ">
-                                <img id="thirdPic" src="think.png">
-                                <h3>BRAINSTORM</h3>
-                                <p>
-                                    Probant malis deserunt commodo labore labore do pariatur, concursionibus singulis
-                                    multos consequat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 feature-border">
-                            <div class="single-content text-center ">
-                                <img id="thirdPic" src="design.jpg">
-                                <h3>DESIGN</h3>
-                                <p>
-                                    Probant malis deserunt commodo labore labore do pariatur, concursionibus singulis
-                                    multos consequat.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="single-content text-center ">
-                                <img id="thirdPic" src="invest.jpg">
-                                <h3>INVEST</h3>
-                                <p>
-                                    Probant malis deserunt commodo labore labore do pariatur, concursionibus singulis
-                                    multos consequat.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
-        </div>
-    </section><!-- end about -->
-
-    <section id= "quotes">
-    	
-
-    </section>
+	<!-- <section id= "quotes">
+    </section> -->
 
     <!-- Content section 1 -->
-    <section id="section1">
+    <section class="section">
         <div class="container">
-            <div class="row">
+            <div class="row vertical-align">
                 <div class="col-md-5 col-md-offset-1">
-                    <div class="single-content">
-                        <i class="fa fa-wordpress red-gradient"></i>
-                        <h3>Based on an interactive map</h3>
-                        <p>
-                            Probant an malis deserunt commodo labore labore do pariatur, culpa concursionibus singulis
-                            multos consequat.
-                        </p>
+                    <div class="text-center description">
+                        <h2>Based on an interactive map</h2>
+                        <h3>
+                            Highlight crucial areas of your city and then consult with neighbors about ideas, resources, and challenges.
+                        </h3>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 col-md-offset-1">
                     <div class="content-iphone">
-                        <img class="img-responsive" src="images/iphone1.png" alt="iphone">
+                        <img class="img-responsive img-center" src="map.png" alt="iphone">
                     </div>
                 </div>
             </div>
@@ -253,22 +228,20 @@
     </section>
     <!-- end Content section 1 -->
   <!-- Content section 2 -->
-    <section id="section2">
+    <section class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-md-offset-1">
-                    <div class="content-iphone">
-                        <img class="img-responsive" src="images/iphone2.png" alt="iphone">
+            <div class="row vertical-align">
+                <div class="col-md-6">
+                    <div class="">
+                        <img class="img-responsive computer" src="computer.jpg" alt="iphone">
                     </div>
                 </div>
                 <div class="col-md-5">
-                    <div class="single-content">
-                        <i class="fa fa-joomla blue-gradient"></i>
-                        <h3>Sketh your ideas, leave comments, upload your proposels</h3>
-                        <p>
-                            Probant an malis deserunt commodo labore labore do pariatur, culpa concursionibus singulis
-                            multos consequat.
-                        </p>
+                    <div class="text-center description">
+                        <h2>Sketch your ideas, leave comments, and upload your proposals</h2>
+                        <h3>
+                           Vote on your proposals as a neighbor and bring them to the attention of investors and city officials. All from your phone or laptop.
+                        </h3>
                     </div>
                 </div>
             </div>
