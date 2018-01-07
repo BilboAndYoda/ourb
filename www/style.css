@@ -15,9 +15,10 @@
             .collapsing ul li a:hover, .in ul li a:hover {
                 color: #7b9d97!important;
             }
+        }
 
-
-
+        #logo {
+            max-width: 600px;
         }
         #main-nav {
             background-color: #193059;
@@ -30,20 +31,25 @@
               rgba(0, 0, 0, 0.5),
               rgba(0, 0, 0, 0.5)
             ),
-            url("https://images.unsplash.com/photo-1476036840956-982d94275a3a?auto=format&fit=crop&w=2550&q=80");
+            url("hero.jpg");
             background-size: cover;
             height: 100vh;
+            padding-left: 5%;
+            padding-right: 5%;
         }
 
         #content{
-			padding-top: 15%;
+			padding-top: 5%;
 			padding-bottom: 20%;
 			text-align: center;
 			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 						 0px 8px 13px rgba(0,0,0,0.2),
 						 0px 18px 23px rgba(0,0,0,0.1);
 			color: #ffffff;
+            padding-left: 8%;
+            padding-right: 8%;
 		}
+
 
         #about {
             margin-top: 5%;
