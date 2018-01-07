@@ -18,7 +18,8 @@
         }
 
         #logo {
-            max-width: 600px;
+            min-width: 300px;
+            max-width: 65%;
         }
         #main-nav {
             background-color: #193059;
