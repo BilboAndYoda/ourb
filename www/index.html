@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
 <head>
 	<meta charset="utf-8">
@@ -14,262 +14,9 @@
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Carrois+Gothic|Permanent+Marker" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<!-- css -->
-	<style type="text/css">
-		#content{
-			padding-top: 15%;
-			padding-bottom: 20%;
-			text-align: center;
-			text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-						 0px 8px 13px rgba(0,0,0,0.2),
-						 0px 18px 23px rgba(0,0,0,0.1);
-			color: #ffffff;
-		}
 
-		body {
-			color: black;
-			font-family: 'Roboto', sans-serif;
-			font-weight: 300;
-			letter-spacing: .1em;
-		}
-
-		#hero {
-			background-image: 
-		    linear-gradient(
-		      rgba(0, 0, 0, 0.5),
-		      rgba(0, 0, 0, 0.5)
-		    ),
-		    url("https://images.unsplash.com/photo-1476036840956-982d94275a3a?auto=format&fit=crop&w=2550&q=80");
-			background-size: cover;
-			height: 100vh;
-		}
-
-        #form {
-            margin-top: 8%;
-            padding-top: 5%;
-            padding-bottom: 10%;
-            text-align: center;
-            text-shadow: 0px 4px 2px rgba(0,0,0,0.1),
-                         0px 2px 2px rgba(0,0,0,0.1),
-                         0px 2px 2px rgba(0,0,0,0.1);
-            color: #ffffff;
-            background-image: 
-            linear-gradient(
-              rgba(0, 0, 0, 0.3),
-              rgba(0, 0, 0, 0.3)
-            ),
-            url("https://images.unsplash.com/photo-1473662423067-e88544ee8418?auto=format&fit=crop&w=1352&q=80");
-            background-size: cover;
-        }
-
-        #about {
-            margin-top: 5%;
-            margin-left: 2%;
-            margin-right: 2%;
-        }   
-
-        #team {
-            color: black;
-            margin-top: 2%;
-            padding-top: 2%;
-        }
-
-		h1 {
-			font-weight: 300;
-			font-size: 7em;
-			font-family: 'Permanent Marker', cursive;
-		}
-
-
-		h2 {
-			font-weight: 300;
-			font-size: 3em;
-		}
-
-		h3 {
-			font-weight: 300;
-		}
-
-        hr {
-            width: 33%;
-            border-top: 1px solid #F8F8F8;
-            border-bottom: 1px solid rgba(0,0,0,0.2);
-        }
-        img {
-            width:100%;
-        }
-        /*navbar*/
-        nav {
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        a:-webkit-any-link {
-            color: -webkit-link;
-            cursor: pointer;
-            text-decoration: none;
-            text-decoration-line: none;
-            text-decoration-style: initial;
-            text-decoration-color: initial;
-            text-shadow: none;
-            letter-spacing: normal;
-        }
-
-		.navbar-inverse .navbar-nav>li>a {
-			color: #FFFFFF;
-		}
-
-		.navbar-inverse .navbar-brand {
-			color: #FFFFFF;
-		}
-		
-		.navbar {
-			 background-color: transparent;
-			 background: transparent;
-			 border-color: transparent;
-		}
-
-		.navbar li { color: #000 } 
-        /*end navbar*/
-
-        .hide {
-            display: none;
-        }
-
-
-/* Common button styles */
-.button {
-    min-width: 150px;
-    max-width: 250px;
-    margin: 1em;
-    padding: 1em 2em;
-    border: none;
-    background: none;
-    color: inherit;
-    -webkit-backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.2em;
-    font-weight: lighter;
-}
-.button:focus {
-    outline: none;
-}
-/* Sizes */
-.button--size-l {
-    font-size: 18px;
-}
-
-/* Typography and Roundedness */
-.button--text-upper {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.button--round-l {
-    border-radius: 40px;
-}
-
-
-/* Shikoba */
-.button.button--shikoba {
-    padding: 1em 30px 1em 35px;
-    overflow: hidden;
-    background: #fff;
-    color: #37474f;
-    border-color: #37474f;
-    -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-}
-.button--shikoba.button--inverted {
-    color: #fff;
-    background: #a3c1bc;
-}
-
-.button--shikoba:hover {
-    background: #7b9d97;
-    border-color: #7b9d97;
-    color: #fff;
-}
-		.container {
-			width: 100%;
-			padding: 4% 4%;
-		}	
-		.section {
-			color: black;
-		}	
-		.section h2{
-			color: #7b9d97;
-			font-family: 'Permanent Marker', cursive;
-			font-size: 4em;
-		}	
-
-
-		#thirdPic {
-			width: 70%;
-		}
-
-
-        .feature-intro p{
-            margin-left: 20%;
-            margin-right: 20%;
-        }
-		.feature-intro h2{
-			margin-left: 15%;
-			margin-right: 15%;
-		}
-
-		#whiteboard {
-			font-family: 'Permanent Marker', cursive;
-		}
-
-		.vertical-align {
-		    display: flex;
-		    align-items: center;
-		}
-
-		.content-iphone{
-			max-width: 500px;
-
-		}
-
-        .right-pad {
-            padding-right: 7%;
-        }
-
-        .pad {
-            padding-bottom: 5%;
-        }
-
-        .pads {
-            padding-bottom: 3%
-        }
-        .padd {
-            padding-bottom: 10%;
-        }
-        /*video player*/
-        .popup .popuptext {
-            visibility: hidden;
-            background-color: #555;
-            color: #fff;
-            text-align: center;
-            border-radius: 6px;
-            padding: 8px 0;
-            z-index: 1;
-            bottom: 125%;
-            left: 50%;
-            margin-left: -80px;
-        }
-        .popup .show {
-            visibility: visible;
-            -webkit-animation: fadeIn 1s;
-            animation: fadeIn 1s;
-        }
-        /*end video player*/
-
-        .img-circle {
-            padding: 6%;
-            margin-bottom: 8%;
-        }
-	</style>
     <script type="text/javascript">
         $(document).ready(function(){       
            var scroll_start = 0;
@@ -515,13 +262,13 @@
                                     <div class="form-group">
                                     	<div class="row">
                                     		<div class="col-sm-6 col-xs-12">
-                                    			<input type="submit" href="#" class="button button--shikoba button--text-medium button--round-l button--inverted"></input>
+                                    			<button type="submit" href="#" class="button button--shikoba button--text-medium button--round-l button--inverted">Send Email</button>
                                     		</div>
                                     		<div class="col-sm-6 col-xs-12">
-                                        		<a type="button" href="https://www.facebook.com/OURB16" class="button button--shikoba button--text-medium button--round-l button--inverted"><span>Facebook!&nbsp&nbsp</span><i class="fa fa-facebook-square" aria-hidden="true"></i></a>	
+                                        		<button type="button" onclick="location.href='https://www.facebook.com/OURB16';" class="button button--shikoba button--text-medium button--round-l button--inverted"><span>
+                                        		Facebook!&nbsp&nbsp</span><i class="fa fa-facebook-square" aria-hidden="true"></i></button>	
                                         	</div>
                                     	</div>
-
                                     </div>
                                 </div>
                             </form>
