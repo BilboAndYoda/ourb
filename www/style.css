@@ -5,6 +5,25 @@
             letter-spacing: .1em;
         }
 
+        @media only screen and (max-width: 766px) {
+            .collapsing, .in {
+                background-color:rgba(0, 0, 0, 0.8);
+            }
+            .collapsing ul li a, .in ul li a {
+                color: #fff!important;
+            }
+            .collapsing ul li a:hover, .in ul li a:hover {
+                color: #7b9d97!important;
+            }
+
+
+
+        }
+        #main-nav {
+            background-color: #193059;
+            color: white;
+        }
+
         #hero {
             background-image: 
             linear-gradient(
@@ -62,6 +81,10 @@
 
         #form h2 {
             font-size: 4em;
+        }
+
+        #hamburg {
+            margin-bottom: 40px;
         }
 
 		h1 {
