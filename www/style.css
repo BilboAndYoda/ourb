@@ -38,6 +38,10 @@
             padding-top: 2%;
         }
 
+        #team h2{
+            font-size: 4em;
+        }
+
         #form {
             margin-top: 8%;
             padding-top: 5%;
@@ -56,6 +60,9 @@
             background-size: cover;
         }
 
+        #form h2 {
+            font-size: 4em;
+        }
 
 		h1 {
 			font-weight: 300;
@@ -125,6 +132,8 @@
 		}	
 		.section {
 			color: black;
+            margin-left: 4%;
+            margin-right: 4%;
 		}	
 		.section h2{
 			color: #7b9d97;
@@ -132,6 +141,10 @@
 			font-size: 3em;
 		}	
 
+        .none {
+            padding: .7%;
+            margin-left: 1%;
+        }
 
 		#thirdPic {
 			width: 70%;
@@ -196,8 +209,18 @@
         /*end video player*/
 
         .img-circle {
-            padding: 6%;
             margin-bottom: 8%;
+            padding: 5%;
+        }
+
+        .card {
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+            padding-top: 20px;
+            padding-bottom: 25px;
+            padding-right: 20px;
+            padding-left:20px;
+            font-size: 1.2em;
+            margin-top: 6%;
         }
 
 
