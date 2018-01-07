@@ -1,4 +1,22 @@
-#content{
+        body {
+            color: black;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300;
+            letter-spacing: .1em;
+        }
+
+        #hero {
+            background-image: 
+            linear-gradient(
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
+            ),
+            url("https://images.unsplash.com/photo-1476036840956-982d94275a3a?auto=format&fit=crop&w=2550&q=80");
+            background-size: cover;
+            height: 100vh;
+        }
+
+        #content{
 			padding-top: 15%;
 			padding-bottom: 20%;
 			text-align: center;
@@ -8,23 +26,17 @@
 			color: #ffffff;
 		}
 
-		body {
-			color: black;
-			font-family: 'Roboto', sans-serif;
-			font-weight: 300;
-			letter-spacing: .1em;
-		}
+        #about {
+            margin-top: 5%;
+            padding-left: 2%;
+            padding-right: 2%;
+        } 
 
-		#hero {
-			background-image: 
-		    linear-gradient(
-		      rgba(0, 0, 0, 0.5),
-		      rgba(0, 0, 0, 0.5)
-		    ),
-		    url("https://images.unsplash.com/photo-1476036840956-982d94275a3a?auto=format&fit=crop&w=2550&q=80");
-			background-size: cover;
-			height: 100vh;
-		}
+        #team {
+            color: black;
+            margin-top: 2%;
+            padding-top: 2%;
+        }
 
         #form {
             margin-top: 8%;
@@ -44,17 +56,6 @@
             background-size: cover;
         }
 
-        #about {
-            margin-top: 5%;
-            margin-left: 2%;
-            margin-right: 2%;
-        }   
-
-        #team {
-            color: black;
-            margin-top: 2%;
-            padding-top: 2%;
-        }
 
 		h1 {
 			font-weight: 300;
@@ -65,7 +66,7 @@
 
 		h2 {
 			font-weight: 300;
-			font-size: 3em;
+			font-size: 3.2em;
 		}
 
 		h3 {
@@ -118,59 +119,6 @@
             display: none;
         }
 
-
-/* Common button styles */
-.button {
-    min-width: 150px;
-    max-width: 250px;
-    margin: 1em;
-    padding: 1em 2em;
-    border: none;
-    background: none;
-    color: inherit;
-    -webkit-backface-visibility: hidden;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 1.2em;
-    font-weight: lighter;
-}
-.button:focus {
-    outline: none;
-}
-/* Sizes */
-.button--size-l {
-    font-size: 18px;
-}
-
-/* Typography and Roundedness */
-.button--text-upper {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.button--round-l {
-    border-radius: 40px;
-}
-
-
-/* Shikoba */
-.button.button--shikoba {
-    padding: 1em 30px 1em 35px;
-    overflow: hidden;
-    background: #fff;
-    color: #37474f;
-    border-color: #37474f;
-    -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
-}
-.button--shikoba.button--inverted {
-    color: #fff;
-    background: #a3c1bc;
-}
-
-.button--shikoba:hover {
-    background: #7b9d97;
-    border-color: #7b9d97;
-    color: #fff;
-}
 		.container {
 			width: 100%;
 			padding: 4% 4%;
@@ -181,7 +129,7 @@
 		.section h2{
 			color: #7b9d97;
 			font-family: 'Permanent Marker', cursive;
-			font-size: 4em;
+			font-size: 3em;
 		}	
 
 
@@ -251,3 +199,58 @@
             padding: 6%;
             margin-bottom: 8%;
         }
+
+
+
+    /* Common button styles */
+    .button {
+        min-width: 150px;
+        max-width: 250px;
+        margin: 1em;
+        padding: 1em 2em;
+        border: none;
+        background: none;
+        color: inherit;
+        -webkit-backface-visibility: hidden;
+        -moz-osx-font-smoothing: grayscale;
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+    .button:focus {
+        outline: none;
+    }
+    /* Sizes */
+    .button--size-l {
+        font-size: 18px;
+    }
+
+    /* Typography and Roundedness */
+    .button--text-upper {
+        letter-spacing: 2px;
+        text-transform: uppercase;
+    }
+    .button--round-l {
+        border-radius: 40px;
+    }
+
+
+    /* Shikoba */
+    .button.button--shikoba {
+        padding: 1em 30px 1em 35px;
+        overflow: hidden;
+        background: #fff;
+        color: #37474f;
+        border-color: #37474f;
+        -webkit-transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+        transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    }
+    .button--shikoba.button--inverted {
+        color: #fff;
+        background: #a3c1bc;
+    }
+
+    .button--shikoba:hover {
+        background: #7b9d97;
+        border-color: #7b9d97;
+        color: #fff;
+    }
