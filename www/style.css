@@ -19,7 +19,7 @@
 
         #logo {
             min-width: 300px;
-            max-width: 65%;
+            max-width: 600px;
         }
         #main-nav {
             background-color: #193059;
@@ -168,8 +168,14 @@
 		}	
 
         .none {
-            padding: .7%;
-            margin-left: 1%;
+            margin: 5px;
+            padding: 0;
+        }
+
+        .lefty {
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
 		#thirdPic {
