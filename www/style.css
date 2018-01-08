@@ -34,8 +34,8 @@
             ),
             url("hero.jpg");
             background-size: cover;
-            padding-left: 5%;
-            padding-right: 5%;
+            padding-left: 3%;
+            padding-right: 3%;
         }
 
         #content{
